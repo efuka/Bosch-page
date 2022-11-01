@@ -1,0 +1,260 @@
+h1{
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.about h1{
+    color: #005691;
+}
+.products h1{
+    color: #fff;
+}
+.fixed{
+    position: fixed;
+}
+header{
+    background-color: #fff;
+}
+.top-header{
+    border-bottom: 5px solid #005691;
+    padding: 10px 15px;
+    width: 100%;
+    background: #fff;
+    top: 0;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+nav{
+    float: right;
+    width: 70%;
+}
+.clearfix{
+    clear: both;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 29px 15px;
+    color: #222;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+nav li a:hover,
+.active{
+    color: #ea0016;
+}
+.dropdown{
+    display: none;
+    background-color: #fff;
+}
+.has-children:hover .dropdown{
+    display: block;
+    position: absolute;
+    top: 52px;
+    border-top: 4px solid #005691;
+}
+.dropdown li{
+    display: block;
+    text-align: left;
+}
+.has-children{
+    position: relative;
+}
+.dropdown li a{
+    display: block;
+    padding: 15px;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+}
+.about,
+.products,
+.footer{
+    padding: 50px 0;
+}
+.products{
+    background-color: #005691;
+}
+.about img{
+    float: left;
+}
+p{
+    line-height: 1.8;
+}
+.col-3{
+    display: inline-block;
+    width: 33%;
+}
+.products .inner-wrapper,
+.about .inner-wrapper,
+.contact-page .inner-wrapper{
+    padding: 0 15px;
+}
+.slider{
+    margin-top: 82px;
+}
+.footer{
+    border-bottom: 7px solid #005691;
+    background-color: #fff;
+    text-align: center;
+}
+
+.price-page,
+.contact-page{
+
+    padding-top: 82px;
+}
+
+table,th, td {
+    border: 1px solid #005691;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.price-page .inner-wrapper{
+
+    padding: 0 15px;
+}
+
+.bg-blue{
+    background-color: #005691;
+}
+
+.text-white{
+    color: #fff;
+}
+
+th, td{
+
+    padding: 10px;
+}
+
+.w-100px{
+
+    width: 100px;
+}
+
+
+table caption{
+
+    caption-side: bottom;
+    margin-top: 10px;
+}
+
+
+.bg-yellow{
+
+    background-color: #e1ea8a;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+
+    text-align: right;
+}
+
+
+.text-center{
+
+    text-align: center;
+}
+
+table tr:hover{
+
+    background-color: #ea0016;
+    color: #fff;
+}
+
+
+table tr:nth-child(){
+
+    background-color: aqua;
+}
+.wrapper-left{
+padding-right: 7.5px;
+}
+.wrapper-right{
+    padding-left: 7.5px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.form-group label{
+    display: inline-block;
+    width: 19%;
+    line-height: 24px;
+}
+.form-group input{
+    display: inline-block;
+    width: 75%;
+    padding: 5px 10px;
+    line-height: 24px;
+    border: 1px solid #005691;
+    border-radius: 20px;
+}
+.form-group select{
+    padding: 8.5px 10px;
+    width: auto;
+    border: 1px solid #005691;
+    border-radius: 20px; 
+}
+.d-inline{
+    display: inline !important;
+    width: auto !important;
+}
+.button{
+    width: 150px !important;
+    font-weight: bold;
+    margin-left: 19%;
+}
+.form-group textarea{
+    border: 1px solid #005691;
+    border-radius: 20px; 
+    display: inline;
+    width: 80%;
+    box-sizing: border-box;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.message-label{
+    position: relative;
+    top: -25px;
+}
